@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Fraunces', serif;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  height: 28.125rem;
+  width: 37.5rem;
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.btn{
+  border: none;
+background: hsl(158, 36%, 37%);
+color: white;
+padding: 12px 29%;
+display: flex;
+border-radius: 7px;
+font-family: 'Montserrat', sans-serif;
+white-space: nowrap;
+
+}
+
+.btn:hover {
+  background: hsl(158, 37%, 25%);
+  text-decoration: none;
+}
+
+.old-price {
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.discount-price {
+  font-size: 24px;
+  font-family: 'Fraunces', serif;
+}
+
+.description {
+  line-height: 22px;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+h1 {
+  line-height: 30px;
+  color: hsl(212, 21%, 14%);
+
+}
+.span{
+  letter-spacing: 5px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+font-size: 14px;
+}
+
+.product-image{
+  flex: 1;
+}
+.content-section{
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 0 5%;
+}
+.price{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  margin-right: 12px;
+}
